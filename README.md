@@ -1,4 +1,4 @@
-# bms Summerschool 2019 Tensorflow 2.0 basics
+# BMS Summerschool 2019 Tensorflow 2.0 basics
 
 ## Tutorial 1 contents
 
