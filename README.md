@@ -1,5 +1,19 @@
 # BMS Summerschool 2019 Tensorflow 2.0 basics
 
+## Installation instructions for tensorflow tutorial
+
+We will be using the upcoming version 2.0 of tensorflow, which can be installed in several ways (https://www.tensorflow.org/install).
+Additionally we will need a couple of standard python packages: numpy, matplotlib, jupyter
+
+One possibility to get all requirements installed is miniconda (https://docs.conda.io/en/latest/miniconda.html):
+- Get miniconda and install it according to your OS (https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
+- The command `conda` should be available on the commandline
+- Create an environment for the tutorial. Run `conda create -n tflow python=3.6`
+- Activate the environment. Run `conda activate tflow`
+- Install needed packages using conda. Run `conda install numpy matplotlib jupyter seaborn tqdm scikit-learn`
+- Install tensorflow via pip of the `tflow` environment. Run `pip install tensorflow==2.0.0-beta1`
+
+
 ## Tutorial 1 contents
 
 Tensorflow offers many ways to create models and train them:
